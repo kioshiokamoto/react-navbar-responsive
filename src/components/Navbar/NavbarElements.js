@@ -7,6 +7,7 @@ export const Nav = styled.nav`
     background: #000;
     height: 80px;
     display:flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0.5rem calc((100vw - 1000px)/2);
     z-index: 10;
@@ -21,6 +22,9 @@ export const NavLink = styled(Link)`
     height: 100%;
     cursor: pointer;
 
+    &:hover{
+        color: #FF6f3f;
+    }
     &.active{
         color: #15cdfc;
     }
@@ -35,7 +39,7 @@ export const Bars = styled(FaBars)`
         position: absolute;
         top:0;
         right:0;
-        transform:translate(-100%,75%);
+        transform:translate(-100%,85%);
         font-size:1.8rem;
         cursor:pointer;
     }
@@ -67,10 +71,14 @@ export const NavBtnLink = styled(Link)`
     border: none;
     outline:none;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    /* transition: all 0.2s ease-in-out; */
+    transition: 0.5s ease-out ;
+    box-shadow: inset 0px 0 0 0 #fff;
     text-decoration:none;
+    
     &:hover{
-        transition: all 0.2s ease-in-out;
+        box-shadow: inset 300px 0 0 0 #fff;
+        /* transition: all 0.2s ease-in-out; */
         background:#fff;
         color: #010606; 
     }

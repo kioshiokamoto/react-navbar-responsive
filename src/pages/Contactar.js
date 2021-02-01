@@ -1,11 +1,11 @@
 import React from 'react'
 
-const AcercaDe = () => {
+const Contactar = () => {
     return (
         <div style={{display:'flex', justifyContent:'center',alignItems:'center',height:'80vh'}}>
-            <h1>AcercaDe</h1>
+            <h1>Contactar</h1>
         </div>
     )
 }
 
-export default AcercaDe
+export default Contactar
