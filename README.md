@@ -2,7 +2,7 @@
 
 Navbar sencillo utilizando react, react-router-dom y styled-components 
 
-![Demo de Navbar](./preview.jpg)
+![Test](preview.JPG)
 
 ------
 
